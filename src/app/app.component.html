@@ -1,1 +1,23 @@
-<input >
+<div class="row">
+<div class="col-lg-3"></div>
+<div class="col-lg-6" style="margin-top: 250px">
+  <div class="card">
+    <div class="card-body">
+      <input [(ngModel)]="area" class="form-control" ngModel type="number" value="{{area}}" (keyup)="calculate()" placeholder="Please enter area"/>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3"> </div>
+</div><div class="row">
+<div class="col-lg-3"></div>
+<div class="col-lg-6" style="margin-top: 50px">
+  <div class="card">
+    <div class="card-body">
+      <h1 style="text-align: center; font-size: 4em">Rs.{{price}}</h1>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3"> </div>
+</div>
+
+
